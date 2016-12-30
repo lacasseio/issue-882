@@ -1,6 +1,6 @@
 apply plugin: 'java'
 
-def runTask = project.tasks.create('run')
+def runTask = project.tasks.create('crash')
 
 runTask.dependsOn project.tasks.create(name: "SingleThreadExecutor2", type: JavaExec) {
 	main = getName()
