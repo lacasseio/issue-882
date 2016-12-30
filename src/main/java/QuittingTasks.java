@@ -3,7 +3,7 @@ import java.util.stream.*;
 import java.util.concurrent.*;
 
 public class QuittingTasks {
-  public static final int COUNT = 690;
+  public static final int COUNT = 8000;
   public static void main(String[] args) throws InterruptedException {
     ExecutorService es =
       Executors.newCachedThreadPool();
